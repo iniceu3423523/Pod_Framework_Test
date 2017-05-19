@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Start and stop framework.
+Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework.
                        DESC
 
   s.homepage         = 'https://github.com/INICEYOU/Pod_Framework_Test'
@@ -39,4 +39,8 @@ Start and stop framework.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+    s.ios.vendored_frameworks = 'Frameworks/BCP.framework'
+
+    s.vendored_frameworks = 'BCP.framework'
 end

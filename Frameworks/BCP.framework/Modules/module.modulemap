@@ -1,0 +1,10 @@
+framework module BCP {
+  umbrella header "BCP.h"
+
+  export *
+  module * { export * }
+}
+
+module BCP.Swift {
+    header "BCP-Swift.h"
+}
