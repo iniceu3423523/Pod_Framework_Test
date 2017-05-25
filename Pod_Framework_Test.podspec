@@ -8,31 +8,18 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Pod_Framework_Test'
-  s.version          = '0.1.0'
+  s.version          = '0.302.1'
   s.summary          = 'Test closed-source framework.'
   s.description      = <<-DESC
 Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework.
                        DESC
   s.homepage         = 'https://github.com/INICEYOU/Pod_Framework_Test'
-
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'INICEYOU' => 'iniceyoutest1@gmail.com' }
   s.source           = { :git => 'https://github.com/INICEYOU/Pod_Framework_Test.git', :tag => s.version.to_s }
-
   s.ios.deployment_target = '10.3'
 
-#s.source_files = 'Pod_Framework_Test/BCP.framework/Headers/*.h'
-#  s.source_files = 'Frameworks/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Pod_Framework_Test' => ['Pod_Framework_Test/Assets/*.png']
-  # }
+  s.ios.vendored_frameworks = 'Frameworks/BCP.framework'
+  s.vendored_frameworks = 'BCP.framework'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-
-    s.ios.vendored_frameworks = 'Frameworks/BCP.framework'
-
-    s.vendored_frameworks = 'BCP.framework'
 end
