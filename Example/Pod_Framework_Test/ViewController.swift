@@ -11,13 +11,12 @@ import BCP
 
 class ViewController: UIViewController
 {
-    let bcpClient = BCPClient.sharedInstance.enableLog(true)
-
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
-        
+        BCPClient.sharedInstance.enableLog(true)
+        BCPPush.sharedInstance.enableLog(false)
     }
 }
 
