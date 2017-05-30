@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Pod_Framework_Test'
-  s.version = '1.0.3'
+  s.version = '1.0.3-beta'
   s.summary          = 'Test closed-source framework.'
   s.description      = <<-DESC
 Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework.
