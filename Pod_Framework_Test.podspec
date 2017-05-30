@@ -8,7 +8,6 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Pod_Framework_Test'
-  s.version          = '0.1.2-3.1.0'
   s.summary          = 'Test closed-source framework.'
   s.description      = <<-DESC
 Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework. Start and stop framework.
@@ -21,5 +20,7 @@ Start and stop framework. Start and stop framework. Start and stop framework. St
 
   s.ios.vendored_frameworks = 'Frameworks/BCP.framework'
   s.vendored_frameworks = 'BCP.framework'
+  s.version = '1.0.0-3.0.2'
+# '1.0.0-3.1.0'
 
 end
