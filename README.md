@@ -25,7 +25,7 @@ pod "Pod_Framework_Test"
 ```
 for beta Swift use:
 ```ruby
-pod "Pod_Framework_Test" '0.1.0-beta'
+pod "Pod_Framework_Test" , '0.1.0-beta'
 ```
 0.1.0 - current version of BCP framework
 
