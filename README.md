@@ -23,7 +23,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "Pod_Framework_Test"
 ```
-for beta Swift use:
+For beta Swift version use:
 ```ruby
 pod "Pod_Framework_Test" , '0.1.0-beta'
 ```
